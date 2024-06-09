@@ -43,7 +43,7 @@ Creates a new React Native project.
 ```sh
 rn-cli init MyProject
 # or with a specific React Native version
-rn-cli init MyProject --version 0.64.0
+rn-cli init MyProject --v 0.64.0
 ```
 
 #### `install-libs`
