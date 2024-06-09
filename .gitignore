@@ -9,3 +9,9 @@
 # Documentation here: https://yarnpkg.com/features/zero-installs
 !.yarn/cache
 #.pnp.*
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
