@@ -9,8 +9,8 @@ The React Native CLI Tool is a command-line interface (CLI) utility designed to 
 1. **Clone the repository:**
 
    ```sh
-   git clone <repository-url>
-   cd react-native-cli-tool
+   git clone https://github.com/hossein92/react-native-starter-kit.git
+   cd react-native-starter-kit
    ```
 
 2. **Install dependencies:**
@@ -133,8 +133,8 @@ If you want to develop or contribute to this project:
 1. **Clone the repository:**
 
    ```sh
-   git clone <repository-url>
-   cd react-native-cli-tool
+   git clone https://github.com/hossein92/react-native-starter-kit.git
+   cd react-native-starter-kit
    ```
 
 2. **Install dependencies:**
