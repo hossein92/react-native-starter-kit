@@ -1,6 +1,6 @@
 # React Native Starter Kit ✨
 
-[![Version](https://img.shields.io/npm/v/react-native-calendars-persian.svg)](https://www.npmjs.com/package/react-native-sk)
+[![Version](https://img.shields.io/npm/v/react-native-sk.svg)](https://www.npmjs.com/package/react-native-sk)
 
 ## Documentation
 
