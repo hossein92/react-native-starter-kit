@@ -1,5 +1,5 @@
 {
-  "name": "react-native-starter-kit",
+  "name": "react-native-sk",
   "version": "0.0.1",
   "description": "CLI tool for React Native projects",
   "main": "index.mjs",
