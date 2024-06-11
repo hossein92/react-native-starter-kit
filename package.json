@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "CLI tool for React Native projects",
   "main": "index.mjs",
+  "publishConfig":{
+    "registry": "https://npm.pkg.github.com/@hossein92"
+  },
   "bin": {
     "rn-cli": "./index.mjs"
   },
