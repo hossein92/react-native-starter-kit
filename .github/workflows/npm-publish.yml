@@ -18,12 +18,21 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "20" # Specify the Node.js version you need
+          node-version: "14" # Specify the Node.js version you need
+
+      - name: Configure npm for authentication
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
       - name: Install dependencies
         run: npm install
 
+      - name: Lint and Test
+        run: |
+          npm run lint
+          npm test
+
       - name: Publish to npm
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
         run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
