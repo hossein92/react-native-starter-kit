@@ -1,6 +1,6 @@
 {
   "name": "react-native-sk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI tool for React Native projects",
   "main": "index.mjs",
   "repository": {
