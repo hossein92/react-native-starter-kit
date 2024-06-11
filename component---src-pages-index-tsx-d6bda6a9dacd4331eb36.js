@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkweb_site=self.webpackChunkweb_site||[]).push([[691],{7200:function(e,t,a){a.r(t),a.d(t,{Head:function(){return c}});var n=a(7294);t.default=()=>n.createElement("div",{className:"bg-sky-500/100 flex w-full justify-center\th-screen items-center "},n.createElement("div",{className:"animate-bounce text-5xl\tfont-bold text-white\t\t"},"React Native Starter Kit"));const c=()=>n.createElement("title",null,"Home Page")}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-d6bda6a9dacd4331eb36.js.map
